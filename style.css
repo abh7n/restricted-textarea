@@ -1,0 +1,34 @@
+body {
+    padding: 50px;
+}
+
+.textarea-container {
+    position: relative;
+}
+
+#text-area {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    resize: none;
+    outline: none;
+}
+
+#char-count {
+    position: absolute;
+    right: 19
+    0px;
+    top: 260px;
+    font-size: 14px;
+    color: #666;
+  }
+
+
+  #text-area.red-border {
+    border: 4px solid red;
+    border-radius: 10px;
+  }
+  
+  #text-area.over-limit {
+    color: red;
+  }
